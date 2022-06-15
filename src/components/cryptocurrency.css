@@ -1,0 +1,27 @@
+.currency {
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.currency-12 {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.currency-cont {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.crypto-img {
+    width: 30px;
+}
+
+.crypto-card {
+    margin-top: 40px;
+}

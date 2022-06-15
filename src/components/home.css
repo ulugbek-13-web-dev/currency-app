@@ -1,0 +1,60 @@
+.home-container {
+    width: 75%;
+
+    margin-left: 25%;
+}
+
+.home-stat {
+    display: flex;
+    justify-content: center;
+}
+
+.stat-title {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.stat-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.stat-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 0 !important;
+}
+
+.stat-col {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.home-crypto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+.home-crypto-inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.home-crypto-inside p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.news-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

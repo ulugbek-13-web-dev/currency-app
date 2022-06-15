@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.form-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #f3f2ff;
+}
+
+.form-container {
+    width: 90%;
+    display: flex;
+}
+
+.form-image-section {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+}
+
+.form-main-section {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-main-container {
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 2px 15px 2px rgba(104, 104, 104, 0.37);
+    box-shadow: 0px 2px 15px 2px rgba(104, 104, 104, 0.37);
+}
+
+.form-main-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 10%;
+
+}
+
+.form-main-input input {
+    width: 350px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 10px;
+}
+
+.form-main-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.form-main-button button {
+    width: 180px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.6s ease;
+}
+
+.form-main-button button:hover {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.div-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-main-input-cont {
+    width: 85%;
+}
+
+.form-main-button-cont {
+    width: 85%;
+    display: flex;
+}
+
+.div-input label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.form-main-button-cont p{
+    margin-left: 35px;
+    margin-top: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+}
