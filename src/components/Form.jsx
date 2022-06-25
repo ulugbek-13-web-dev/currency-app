@@ -14,11 +14,11 @@ const Form = ({ title, handleClick }) => {
     return (
         <div className="form-section" style={{ height: heightPage }}>
             <div className="form-container">
-                <div className="form-image-section">
+                {/* <div className="form-image-section">
                     <div className="form-image-container">
                         <img src={loginImage} alt="" />
                     </div>
-                </div>
+                </div> */}
                 <div className="form-main-section">
                     <div className="form-main-container">
                         <div className="form-main-input">
